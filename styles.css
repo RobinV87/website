@@ -1,0 +1,148 @@
+/* General styling */
+a {
+  color: yellow; 
+}
+
+b {
+  color: orange; 
+}
+
+ul {
+  list-style: none; 
+}
+
+/* Fonts */
+.silkscreen-bold {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+}
+
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+}
+
+.Header {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  border: 5px groove purple;
+  border-width: 15px;
+  border-bottom-width: -15px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-shadow: 5px 5px 5px green;
+  width: calc(100% - 100px);
+}
+
+.sideNav {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  border: 5px solid purple;
+  width: 210px;
+  position: fixed;
+  left: 0;
+  top: 20%;
+  padding: 10px;
+}
+
+.Socials {
+ max-width: 150px;
+ max-height: 100px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.Socials img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.Socials ul {
+  list-style: none;
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+  justify-content: center; 
+}
+
+.Socials li {
+  margin-right: 10px; 
+}
+
+.Socials li:last-child {
+  margin-right: 0; 
+}
+
+body {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  background-color: black;
+  color: green;
+  text-align: center;
+}
+
+.bodyTitle, .bodyText, .facts {
+  border: 5px solid purple;
+  margin: 0 auto;
+  width: 750px; /* Fixed width for centered content */
+  padding: 10px; /* Optional: Add padding for spacing inside the border */
+}
+
+.facts {
+  margin-top: 20px; /* Add margin to separate from other sections */
+}
+
+/* HackerBadges */
+.Badges {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between badges */
+  justify-content: center; /* Center badges horizontally */
+  max-width: 1200px; /* Adjust this to fit 6 badges per row */
+  width: 100%;
+}
+
+.badge {
+  text-align: center;
+  width: calc(16.666% - 10px); /* 6 badges per row minus gap */
+  max-width: 150px; /* Adjust maximum width if needed */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+.badge img {
+  width: 100%; /* Scale image to fit the badge container */
+  height: auto;
+}
+
+.badge p {
+  margin-top: 5px;
+  color: white; /* Adjust text color as needed */
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+}
+
+/* 404 Not Found Goblins */
+.notfound {
+  margin-bottom: 50px;
+}
+
+.techGoblins {
+  width: 500px;
+  height: 400px;
+}
+
+.backButtonConstruction {
+  background-color: #04AA6D; /* Green */
+}
