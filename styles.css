@@ -108,18 +108,15 @@ body {
 .badge-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Space between badges */
-  justify-content: center; /* Center badges horizontally */
-  max-width: 1200px; /* Adjust this to fit 6 badges per row */
-  width: 100%;
+  gap: 10px;
+  justify-content: center;
 }
 
 .badge {
   text-align: center;
-  width: calc(16.666% - 10px); /* 6 badges per row minus gap */
-  max-width: 150px; /* Adjust maximum width if needed */
-  box-sizing: border-box; /* Include padding and border in width */
+  max-width: 150px;
 }
+
 
 .badge img {
   width: 100%; /* Scale image to fit the badge container */
