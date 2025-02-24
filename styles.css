@@ -49,6 +49,19 @@ ul {
   padding: 10px;
 }
 
+.sideNav ul ul {
+  display: none;
+  position: absolute;
+  background: #222;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sideNav ul li:hover > ul {
+  display: block;
+}
+
+
 .Socials {
  max-width: 150px;
  max-height: 100px;
