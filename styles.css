@@ -49,19 +49,6 @@ ul {
   padding: 10px;
 }
 
-.sideNav ul ul {
-  display: none;
-  position: absolute;
-  background: #222;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.sideNav ul li:hover > ul {
-  display: block;
-}
-
-
 .Socials {
  max-width: 150px;
  max-height: 100px;
@@ -121,15 +108,18 @@ body {
 .badge-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+  gap: 10px; /* Space between badges */
+  justify-content: center; /* Center badges horizontally */
+  max-width: 1200px; /* Adjust this to fit 6 badges per row */
+  width: 100%;
 }
 
 .badge {
   text-align: center;
-  max-width: 150px;
+  width: calc(16.666% - 10px); /* 6 badges per row minus gap */
+  max-width: 150px; /* Adjust maximum width if needed */
+  box-sizing: border-box; /* Include padding and border in width */
 }
-
 
 .badge img {
   width: 100%; /* Scale image to fit the badge container */
