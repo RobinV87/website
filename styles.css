@@ -44,7 +44,7 @@ ul {
     animation: glitch 1.5s infinite alternate;
 }
 
-.Header h2 {
+h2 {
     font-family: 'VT323', monospace; /* Matrix-style font */
     font-size: 3em;
     color: #00ff00; /* Green neon */
