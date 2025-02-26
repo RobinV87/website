@@ -44,6 +44,14 @@ ul {
     animation: glitch 1.5s infinite alternate;
 }
 
+.Header h2 {
+    font-family: 'VT323', monospace; /* Matrix-style font */
+    font-size: 3em;
+    color: #00ff00; /* Green neon */
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #008000;
+    animation: glitch 1.5s infinite alternate;
+}
+
 .Header p {
     font-family: 'VT323', monospace;
     font-size: 1.5em;
